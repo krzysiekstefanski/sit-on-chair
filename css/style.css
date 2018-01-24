@@ -488,7 +488,7 @@ section .container .row {
   width: 86px;
   height: 86px;
   border-radius: 50%;
-  background-color: #d6d5d5;
+  background-color: #ffffff;
   display: inline-block;
   border: 2px solid #d6d5d5;
   text-align: center;
@@ -496,6 +496,25 @@ section .container .row {
   margin-left: 219px;
 
 
+}
+.priceBoxSmallCircle {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background-color: #d6d5d5;
+  text-align: center;
+  margin-top: 19px;
+  margin-left: 19px;
+}
+.midCircle {
+  background-color: #1bcaa1;
+  border: none;
+}
+.midSmallCircle {
+  background-color: #ffffff;
+  border: none;
+  margin-top: 21px;
+  margin-left: 21px;
 }
 
 .priceBox {
@@ -505,13 +524,72 @@ section .container .row {
   margin-top: 90px;
   float: left;
   background-color: white;
-  border: 1px solid #d6d6d6;
+  border: 2px solid #d6d6d6;
   border-radius: 1px
 }
 
 .middleBox {
   background-color: #1bcaa1;
   border: 1px solid #1bcaa1;
+}
+.priceBoxInsideCircle {
+  width: 206px;
+  height: 206px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #d6d5d5;
+  text-align: center;
+  margin: 42px auto;
+
+
+}
+
+.priceSection h1 {
+  font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 140px;
+    margin-top: 9px;
+    color: #1bcaa1;
+}
+
+#midH1 {
+  color: #ffffff;
+}
+
+.boxInsideRow {
+  height: 71px;
+  width: 100%;
+  background-color: #d6d5d5;
+}
+
+.firstRow {
+  margin-top: 56px;
+}
+
+.secondRow {
+  background-color: #F1F1F1;
+}
+
+.midInsideRow {
+  background-color: #ffffff;
+}
+
+.priceBoxButton {
+  width: 196px;
+  height: 56px;
+  border-radius: 18px;
+  background-color: #1bcaa1;
+  margin: 176px 0px 0px 166px;
+  padding: 25px 0px 0px 75px;
+}
+
+.thirdButton {
+  margin: 36px 0px 0px 166px;
+}
+
+.midButton {
+  margin: 111px 0px 0px 166px;
+  background-color: #ffffff;
 }
 
 .priceBoxesContainer {
@@ -588,7 +666,7 @@ form::after {
     display: table;
 }
 .submit {
-    background-color: #1BCAA1;
+    background-color: #1bcaa1;
     color: white;
     text-transform: uppercase;
     font-size: 55px;
